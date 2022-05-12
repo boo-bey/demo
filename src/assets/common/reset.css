@@ -1,0 +1,60 @@
+body,
+p,
+a,
+table,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+html {
+    /* 750的设计稿 */
+    font-size: 13.3333333333vw;
+}
+
+@media(min-width:750px) {
+    html {
+        font-size: 100px;
+    }
+}
+
+body {
+    font-size: 14px;
+    color: #333;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    /* Project id 3114419 */
+    src: url('//at.alicdn.com/t/font_3114419_g422ps1m2y.woff2?t=1651984738445') format('woff2'),
+        url('//at.alicdn.com/t/font_3114419_g422ps1m2y.woff?t=1651984738445') format('woff'),
+        url('//at.alicdn.com/t/font_3114419_g422ps1m2y.ttf?t=1651984738445') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
