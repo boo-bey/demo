@@ -22,6 +22,12 @@ const routes = [
     path:'/ask',
     name:'Ask',
     // component:
+  },
+  {
+    path:'/city/:cityname',
+    name:'City',
+    component:()=>import('../views/City'),
+    props:true
   }
 ]
 

@@ -73,7 +73,8 @@ export default {
         font-size: 0.3rem;
         padding: 0.1rem 0;
         .new {
-          font-size: 0.11rem;
+          font-size: 0.25rem;
+          line-height: 0.3rem;
           background: red;
           border-radius: 3px;
           color: white;
